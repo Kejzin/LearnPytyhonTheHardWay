@@ -6,6 +6,7 @@ def print_all(f):
     print(f.read())
 
 def rewind(f):
+    # set a file's current position. There is no output value
     f.seek(0)
 
 def print_a_line(line_count, f):
